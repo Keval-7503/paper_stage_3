@@ -1,0 +1,11 @@
+{
+  "datasets": {
+    "linemod_root": "",
+    "ycb_root": ""
+  },
+  "synthetic": {
+    "train_objects": 6,
+    "val_objects": 3,
+    "points_per_object": 2048
+  }
+}
