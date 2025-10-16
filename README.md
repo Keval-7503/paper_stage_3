@@ -40,12 +40,9 @@ python -m mask6d.visualize --runs runs
 - `mask6d/visualize.py` — Simple matplotlib plots (loss & AUC curves)
 - `config.json` — Put dataset paths here if using real data
 
-## Notes for Report / Slides
-
-- Show **loss curves** from `runs/pretrain/log.json` and `runs/finetune/log.json`.
-- Compare **pretrained vs scratch**: pass `--no_pretrained` in fine‑tune script to run baseline.
-- Try **mask ratios**: `0.6, 0.8, 0.9` and compare VALID AUC.
-- Include qualitative visuals (saved in `runs/qual/`).
+## Extra Files
+- `presentation.txt (presentation.md)` — stage 3 presentation
+- `Mask6D_Report.pdf` — A simple report
 
 ## License
 For educational use.
